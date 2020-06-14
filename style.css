@@ -18,6 +18,20 @@ h3 {
   color: #e8bfbf;
   text-transform: capitalize;
 }
+
+.skewBox {
+  background: linear-gradient(
+    52deg,
+    rgba(246, 216, 216, 1) 0%,
+    rgba(154, 107, 107, 1) 100%
+  );
+  padding: 80px 0;
+  transform: skew(0deg, -10deg) translateY(-90px);
+  height: 500px;
+}
+.skew {
+  transform: skew(0deg, 10deg);
+}
 /*
 Hero section
 */
@@ -55,6 +69,9 @@ Hero section
 }
 
 @media only screen and (min-width: 600px) {
+  .skewBox {
+    height: 550px;
+  }
   .hero-img {
     width: 600px;
     transform: translateX(-50px);
@@ -75,6 +92,9 @@ Hero section
 }
 
 @media only screen and (min-width: 992px) {
+  .skewBox {
+    height: 610px;
+  }
   .header {
     margin: 0;
     width: 100%;
@@ -112,6 +132,11 @@ Hero section
 }
 
 @media only screen and (min-width: 1200px) {
+  .skewBox {
+    padding: 80px 0;
+    transform: skew(0deg, -10deg) translateY(-180px);
+    height: 700px;
+  }
   .logo {
     width: 200px;
     margin-top: 150px;
@@ -154,6 +179,7 @@ Project section
 .project {
   max-width: 80vw;
   margin: auto;
+  padding-top: 250px;
 }
 .project p {
   max-width: 500px;
@@ -168,7 +194,7 @@ Project section
 
 .title-project {
   color: #ecc6c6;
-  padding-top: 50px;
+  /* padding-top: 220px; */
   font-weight: bold;
 }
 
