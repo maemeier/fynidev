@@ -135,7 +135,7 @@ Hero section
   .skewBox {
     padding: 80px 0;
     transform: skew(0deg, -10deg) translateY(-180px);
-    height: 700px;
+    height: 850px;
   }
   .logo {
     width: 200px;
@@ -171,6 +171,11 @@ Hero section
   }
   .hero-text {
     line-height: 2rem;
+    padding: 100px 0px;
+    margin: 0;
+  }
+  .logo {
+    padding-top: 80px;
   }
 }
 /*
@@ -227,7 +232,6 @@ Project section
 
   .text-project {
     max-width: 700px;
-
     text-align: left;
   }
 
@@ -263,7 +267,7 @@ Project section
   .title-project {
     color: #ecc6c6;
     text-align: left;
-    font-size: 70px;
+    font-size: 50px;
     padding-top: 50px;
     font-weight: bold;
     margin-left: auto;
@@ -408,7 +412,7 @@ About section
 
 .about-title {
   color: #e8bfbf;
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 40px;
   font-weight: bold;
 }
