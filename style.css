@@ -302,7 +302,7 @@ Project section
 @media only screen and (min-width: 1200px) {
   .project {
     max-width: 1200px;
-    margin: auto;
+    padding-top: 120px;
   }
   .underline-project {
     height: 10px;
@@ -313,7 +313,7 @@ Project section
   }
   .text-project {
     max-width: 700px;
-    padding-top: 50px;
+    padding-top: 40px;
     text-align: right;
     margin-left: auto;
   }
@@ -494,7 +494,7 @@ i:hover {
   .about-title {
     color: #e8bfbf;
     padding-top: 70px;
-    font-size: 5rem;
+    font-size: 50px;
   }
   .about-text {
     max-width: 600px;
