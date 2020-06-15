@@ -108,7 +108,7 @@ Hero section
   .hero-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .hero-img {
     width: 550px;
@@ -451,18 +451,19 @@ i:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
+
 @media only screen and (min-width: 992px) {
   .about-title {
     color: #e8bfbf;
     margin-top: 70px;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
   }
   .about-text {
     color: #d1d1d1;
-    padding-top: 0px;
     font-size: 18px;
     line-height: 1.8rem;
+    margin-top: 0px;
   }
   .contact {
     max-width: 90vw;
