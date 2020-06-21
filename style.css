@@ -7,12 +7,14 @@ body {
 h1 {
   text-transform: uppercase;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 p {
   color: #d1d1d1;
   font-size: 14px;
-  line-height: 1.6rem;
-  font-weight: 100;
+  font-weight: 300;
+  font-family: Roboto;
+  line-height: 2rem;
 }
 h3 {
   color: #e8bfbf;
@@ -55,6 +57,7 @@ Hero section
   padding-top: 0px;
   font-size: 40px;
   font-weight: bold;
+  font-family: Roboto;
 }
 .underline {
   height: 5px;
@@ -66,6 +69,11 @@ Hero section
   width: 350px;
   transform: translateX(-30px);
   margin-top: 30px;
+}
+.hero-text {
+  font-weight: 300;
+  font-family: Roboto;
+  line-height: 2rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -126,7 +134,7 @@ Hero section
   .hero-text {
     font-size: 18px;
     padding-top: 30px;
-    font-weight: 300;
+
     line-height: 1.8rem;
   }
 }
@@ -200,12 +208,18 @@ Project section
 .title-project {
   color: #ecc6c6;
   /* padding-top: 220px; */
+
+  font-size: 32px;
   font-weight: bold;
+  font-family: Roboto;
 }
 
 .text-project {
   max-width: 700px;
   text-align: left;
+  font-weight: 300;
+  font-family: Roboto;
+  line-height: 2rem;
 }
 
 .design-img,
@@ -413,13 +427,17 @@ About section
 .about-title {
   color: #e8bfbf;
   margin-top: 60px;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
+  font-family: Roboto;
 }
 .about-text {
   color: #d1d1d1;
   padding-top: 0px;
   font-size: 14px;
+  font-weight: 300;
+  font-family: Roboto;
+  line-height: 2rem;
 }
 
 /*
