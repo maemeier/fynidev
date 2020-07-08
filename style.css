@@ -372,7 +372,7 @@ Project section
 }
 /* slide section */
 
-.carousel-cell:before {
+/* .carousel-cell:before {
   display: block;
 }
 .carousel {
@@ -388,10 +388,10 @@ Project section
 .carousel-cell {
   width: 90%;
   padding: 10px;
-}
+} */
 
 @media only screen and (min-width: 992px) {
-  .img {
+  /* .img {
     width: 700px;
     height: 100px;
   }
@@ -399,15 +399,15 @@ Project section
   .carousel-cell {
     width: 60%;
     /* padding: 10px; */
-  }
+  /* }
   .main-carousel {
     max-width: 900px;
     margin: auto;
-  }
+  }  */
 }
 
 @media only screen and (min-width: 1200px) {
-  .carousel {
+  /* .carousel {
     max-width: 1200px;
   }
   .w3-image {
@@ -418,7 +418,6 @@ Project section
   .carousel-cell {
     width: 50%;
     /* padding: 10px; */
-  }
 }
 /* .carousel-cell:before {
     display: block;
