@@ -432,14 +432,14 @@ Project section
   }
 } */
 
-carousel-cell {
+/* carousel-cell {
   width: 66%;
 }
 
 /* cell number */
-.carousel-cell:before {
+/* .carousel-cell:before {
   display: block;
-}
+}  */
 /*
 About section
 */
