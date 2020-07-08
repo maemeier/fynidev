@@ -370,77 +370,48 @@ Project section
     width: 380px;
   }
 }
-/* slide section */
-
-/* .carousel-cell:before {
-  display: block;
+.content-img {
+  max-width: 90vw;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.carousel {
+.card {
   margin: auto;
-  padding-top: 40px;
+  display: block;
+  max-width: 90vw;
+  padding-top: 20px;
 }
-
-.img {
-  width: 700px;
-  height: 100px;
-}
-
-.carousel-cell {
-  width: 90%;
-  padding: 10px;
-} */
-
-@media only screen and (min-width: 992px) {
-  /* .img {
-    width: 700px;
-    height: 100px;
-  }
-
-  .carousel-cell {
-    width: 60%;
-    /* padding: 10px; */
-  /* }
-  .main-carousel {
-    max-width: 900px;
+@media only screen and (min-width: 700px) {
+  .card {
     margin: auto;
-  }  */
+    max-width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .content-img {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-  /* .carousel {
-    max-width: 1200px;
+  .content-img {
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
   }
-  .w3-image {
-    width: 500px;
-    height: 200px;
-  }
-
-  .carousel-cell {
-    width: 50%;
-    /* padding: 10px; */
-}
-/* .carousel-cell:before {
-    display: block;
-  }
-  .carousel {
+  .card {
     margin: auto;
     max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
     padding-top: 40px;
   }
-  .main-carousel {
-    max-width: 1200px;
-    margin: auto;
-  }
-} */
-
-/* carousel-cell {
-  width: 66%;
 }
-
-/* cell number */
-/* .carousel-cell:before {
-  display: block;
-}  */
 /*
 About section
 */
