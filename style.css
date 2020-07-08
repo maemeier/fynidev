@@ -397,6 +397,10 @@ Project section
     width: 60%;
     padding: 10px;
   }
+  .main-carousel {
+    max-width: 900px;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -418,6 +422,10 @@ Project section
     margin: auto;
     max-width: 1200px;
     padding-top: 40px;
+  }
+  .main-carousel {
+    max-width: 1200px;
+    margin: auto;
   }
 }
 /*
