@@ -407,7 +407,7 @@ Project section
 }
 
 @media only screen and (min-width: 1200px) {
-  .img {
+  .w3-image {
     width: 700px;
     height: 400px;
     padding: 20px;
