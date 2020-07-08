@@ -409,6 +409,7 @@ Project section
 @media only screen and (min-width: 1200px) {
   .img {
     width: 700px;
+    height: 400px;
     padding: 20px;
   }
 
