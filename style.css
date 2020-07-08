@@ -407,7 +407,7 @@ Project section
 }
 
 @media only screen and (min-width: 1200px) {
-  .w3-image {
+  /* .w3-image {
     width: 700px;
     height: 400px;
     padding: 20px;
@@ -416,10 +416,9 @@ Project section
   .carousel-cell {
     width: 50%;
     /* padding: 10px; */
-  }
+}
 
-  /* cell number */
-  .carousel-cell:before {
+/* .carousel-cell:before {
     display: block;
   }
   .carousel {
@@ -431,6 +430,15 @@ Project section
     max-width: 1200px;
     margin: auto;
   }
+} */
+
+carousel-cell {
+  width: 66%;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
 }
 /*
 About section
