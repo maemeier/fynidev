@@ -21,6 +21,9 @@ h3 {
   text-transform: capitalize;
 }
 
+.link {
+  color: #242424;
+}
 .skewBox {
   background: linear-gradient(
     52deg,
@@ -395,7 +398,7 @@ Project section
 
   .carousel-cell {
     width: 60%;
-    padding: 10px;
+    /* padding: 10px; */
   }
   .main-carousel {
     max-width: 900px;
@@ -411,7 +414,7 @@ Project section
 
   .carousel-cell {
     width: 50%;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   /* cell number */
@@ -420,7 +423,7 @@ Project section
   }
   .carousel {
     margin: auto;
-    max-width: 1200px;
+    max-width: 75vw;
     padding-top: 40px;
   }
   .main-carousel {
