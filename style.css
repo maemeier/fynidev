@@ -423,6 +423,7 @@ Project section
   }
   .carousel {
     margin: auto;
+    max-width: 75vw;
     padding-top: 40px;
   }
   .main-carousel {
